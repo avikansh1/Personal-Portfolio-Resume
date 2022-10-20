@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar
+{
+    background-color: rgb(180, 166, 166);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    margin: -108px 6px;
+    padding: 67px 42px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 50px 0px;
+}
+.sidebar nav li a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    width: 0px;
+    display: flex;
+    /* sbackground-color: red ; */
+}
+.infocontainer{
+    margin: 144px auto;
+    /* sbackground-color: cadetblue; */
+    height: 58vh;
+    width: 90vw;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.devpic img{
+    height: 58vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 50px;
+    padding: 0px 91px;
+
+}
+.Name{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px 91px;
+}
+.About{
+    font-size: 35px;
+    padding: 0px 91px;
+}
+.Moreabout{
+     font-size: 20px;
+     padding: 0px 91px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.btn {
+    padding: 10px 37px;
+    border-radius: 27px;
+    color: white;
+    background-color: rgb(85, 216, 216);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 4px 403px;
+    display: flex;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(9, 48, 48);
+}
+.contactform{
+    font-family:fira sans-serif ;
+    padding: 2px 80px;
+    padding-top: 157px;
+}
+.contactform h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 12px 0px;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form input div{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0px 0 0;
+    padding: 3px;
+}
+#emailhelp{
+    font-size: 8px;
+    color: rgb(9, 46, 34);
+    margin: 0px 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24;
+    margin: 3px 0pxsssss;
+}
+.blogitem
+{
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.blogcontainer h1{
+    font-family: sans-serif;
+    margin: 23px;
+}
+.blogitem p{
+    font-family: sans-serif;
+}
+.mainn{
+    margin: 59px 77px;
+    padding: 1px 34px;
+}
+.intro p{
+    font-size: large;
+    font-family: sans-serif;
+    padding: 13px;
+
+}
+.intro h1{
+    font-family: sans-serif;
+    
+    padding: 1px 359px;
+
+}
+.introcontainer  {
+    margin: 12px;
+    font-family: sans-serif;
+}
+.sidebargo{
+    transform: translate(-175px, 0px);
+    position: absolute;
+}      
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    margin: 0px -165px;
+}
+
+.cross{
+    margin:0px 117px;
+}
+
+@media (max-width:1615px){
+    /* .sidebar{ */
+        /* transform: translate(-175px, 0px); */
+        /* position: absolute; */
+    /* }       */
+ } 
